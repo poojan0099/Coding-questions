@@ -38,8 +38,8 @@ public class Swap_numbers {
 
 		System.out.println("After Swapping x = "+p+", y = "+q);
 		System.out.println();
-		//Method 4 using XOR operation
 		
+		//Method 4 using XOR operation
 		int m = 88, n = 99;
 		System.out.println("Before Swapping m = "+m+", n = "+n);
 		
@@ -48,8 +48,14 @@ public class Swap_numbers {
 		m = m ^ n;
 		
 		System.out.println("After Swapping m = "+m+", n = "+n);
+		System.out.println();
 		
+		//Method 5 using +,- logic in single statement
+		int u = 11, v = 22;
+		System.out.println("Before Swapping u = "+u+" v = "+v);
 		
+		v = u+v-(u=v);
+		System.out.println("After Swapping u = "+u+" v = "+v);
 	}
 
 }
